@@ -1,0 +1,23 @@
+# Build context exclusions — keeps images small and secrets out.
+node_modules
+.next
+out
+.git
+.gitignore
+
+# Secrets: provide env via docker-compose / `docker run --env-file`
+.env
+.env.local
+.env.*.local
+
+# Local artefacts
+*.log
+.DS_Store
+bike-rental-hostinger.zip
+tmp-shots
+coverage
+
+# Runtime-uploaded media lives in a Docker volume, never in the image.
+# public/img (default images) is intentionally NOT ignored.
+public/uploads/*
+!public/uploads/.gitkeep

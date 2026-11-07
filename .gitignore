@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+
+# The complete public/img bundle MUST stay tracked and ship with deployments.
+!public/
+!public/img/
+!public/img/**
+
+# Keep public/uploads in the repo/archive, but not runtime-uploaded media.
+public/uploads/*
+!public/uploads/.gitkeep
