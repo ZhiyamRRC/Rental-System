@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1793867522217,
+      "tag": "0000_mysql_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1793877158606,
+      "tag": "0001_whatsapp_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1793878066569,
+      "tag": "0002_customer_whatsapp",
+      "breakpoints": true
+    }
+  ]
+}
